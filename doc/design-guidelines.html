@@ -47,6 +47,10 @@
 
       /* Font size */
 
+      .font-size-hierarchy-section {
+        margin-bottom: 5rem;
+      }
+
       .font-size-element {
         display: flex;
         align-items: center;
@@ -106,7 +110,54 @@
         font-size: 1.111rem;
       }
 
-      /* Colors */
+      /* White spaces */
+
+      .white-space-hierarchy-section {
+        margin-bottom: 5rem;
+      }
+
+      .white-space-hierarchy {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        list-style: none;
+      }
+
+      .white-space-element {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+      }
+
+      .white-space-size {
+        width: 6rem;
+      }
+
+      .white-space-delimiter {
+        width: 50rem;
+        height: 0.2rem;
+
+        background-color: #000000;
+      }
+
+      .white-space-body {
+        background-color: #eeeeee;
+      }
+
+      .white-space-element--1 .white-space-body {
+        height: 10rem;
+      }
+
+      .white-space-element--2 .white-space-body {
+        height: 5rem;
+      }
+
+      /* Tints and shades */
+
+      .tints-and-shades-section {
+        margin-bottom: 5rem;
+      }
 
       .tints-and-shades {
         margin-bottom: 4rem;
@@ -195,6 +246,35 @@
           <div class="font-size-text">The quick fox jumps</div>
         </div>
       </div>
+    </section>
+
+    <section class="white-space-hierarchy-section">
+      <h2>Hierarquia de espaços em branco</h2>
+
+      <p class="section-description">
+        Assumindo que o tamanho da fonte do corpo corresponde a 10px, temos que
+        a hierarquia de espaços em branco é como segue:
+      </p>
+
+      <ul class="white-space-hierarchy">
+        <li class="white-space-element white-space-element--1">
+          <p class="white-space-size">10rem</p>
+          <div class="white-space-demonstration">
+            <div class="white-space-delimiter"></div>
+            <div class="white-space-body"></div>
+            <div class="white-space-delimiter"></div>
+          </div>
+        </li>
+
+        <li class="white-space-element white-space-element--2">
+          <p class="white-space-size">5rem</p>
+          <div class="white-space-demonstration">
+            <div class="white-space-delimiter"></div>
+            <div class="white-space-body"></div>
+            <div class="white-space-delimiter"></div>
+          </div>
+        </li>
+      </ul>
     </section>
 
     <section class="tints-and-shades-section">
