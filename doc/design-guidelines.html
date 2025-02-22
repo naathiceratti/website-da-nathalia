@@ -7,11 +7,43 @@
     <title>Diretrizes de design</title>
 
     <style>
-      .font-size-hierarchy {
+      * {
+        margin: 0;
+        padding: 0;
+
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      body {
         width: 80%;
 
         margin: 5rem auto;
       }
+
+      h2 {
+        font-size: 3.981rem;
+
+        margin-bottom: 1.6rem;
+      }
+
+      h3 {
+        font-size: 3.318rem;
+        margin-bottom: 1.6rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+      }
+
+      .section-description {
+        margin-bottom: 1.6rem;
+      }
+
+      /* Font size */
 
       .element {
         display: flex;
@@ -71,14 +103,45 @@
       .element--9 .text {
         font-size: 1.111rem;
       }
+
+      /* Colors */
+
+      .tints-and-shades {
+        margin-bottom: 4rem;
+      }
+
+      .colors {
+        display: flex;
+        gap: 2rem;
+
+        list-style: none;
+      }
+
+      .colors.shades {
+        margin-bottom: 2rem;
+      }
+
+      .color {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .color-swatch {
+        width: 6rem;
+        height: 6rem;
+
+        box-shadow: 0 0 10px 0.1px rgb(0, 0, 0, 0.2);
+      }
     </style>
   </head>
 
   <body>
-    <section class="font-size-hierarchy">
+    <section class="font-size-hierarchy-section">
       <h2>Hierarquia de tamanho de fonte</h2>
 
-      <p>
+      <p class="section-description">
         Assumindo que o tamanho da fonte do corpo corresponde a 10px, temos que
         a hierarquia de tamanhos de fonte é como segue:
       </p>
@@ -129,6 +192,251 @@
           <div class="size">1.111rem</div>
           <div class="text">The quick fox jumps</div>
         </div>
+      </div>
+    </section>
+
+    <section class="tints-and-shades-section">
+      <h2>Tons</h2>
+
+      <p class="section-description">
+        Seguem os diferentes tons gerados a partir das cores que compõe a
+        identidade visual:
+      </p>
+
+      <div class="tints-and-shades">
+        <h3>Cor principal</h3>
+
+        <ul class="colors shades">
+          <li class="color">
+            <p class="color-code">#41767f</p>
+            <div class="color-swatch" style="background-color: #41767f"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#3b6a72</p>
+            <div class="color-swatch" style="background-color: #3b6a72"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#345e66</p>
+            <div class="color-swatch" style="background-color: #345e66"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#2e5359</p>
+            <div class="color-swatch" style="background-color: #2e5359"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#27474c</p>
+            <div class="color-swatch" style="background-color: #27474c"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#213b40</p>
+            <div class="color-swatch" style="background-color: #213b40"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#1a2f33</p>
+            <div class="color-swatch" style="background-color: #1a2f33"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#132326</p>
+            <div class="color-swatch" style="background-color: #132326"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#0d1819</p>
+            <div class="color-swatch" style="background-color: #0d1819"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#060c0d</p>
+            <div class="color-swatch" style="background-color: #060c0d"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#000000</p>
+            <div class="color-swatch" style="background-color: #000000"></div>
+          </li>
+        </ul>
+
+        <ul class="colors tints">
+          <li class="color">
+            <p class="color-code">#41767f</p>
+            <div class="color-swatch" style="background-color: #41767f"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#54848c</p>
+            <div class="color-swatch" style="background-color: #54848c"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#679199</p>
+            <div class="color-swatch" style="background-color: #679199"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#7a9fa5</p>
+            <div class="color-swatch" style="background-color: #7a9fa5"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#8dadb2</p>
+            <div class="color-swatch" style="background-color: #8dadb2"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#a0bbbf</p>
+            <div class="color-swatch" style="background-color: #a0bbbf"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#b3c8cc</p>
+            <div class="color-swatch" style="background-color: #b3c8cc"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#c6d6d9</p>
+            <div class="color-swatch" style="background-color: #c6d6d9"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#d9e4e5</p>
+            <div class="color-swatch" style="background-color: #d9e4e5"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#ecf1f2</p>
+            <div class="color-swatch" style="background-color: #ecf1f2"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#ffffff</p>
+            <div class="color-swatch" style="background-color: #ffffff"></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tints-and-shades">
+        <h3>Cor de acento</h3>
+
+        <ul class="colors shades">
+          <li class="color">
+            <p class="color-code">#edd8d3</p>
+            <div class="color-swatch" style="background-color: #edd8d3"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#d5c2be</p>
+            <div class="color-swatch" style="background-color: #d5c2be"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#beada9</p>
+            <div class="color-swatch" style="background-color: #beada9"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#a69794</p>
+            <div class="color-swatch" style="background-color: #a69794"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#8e827f</p>
+            <div class="color-swatch" style="background-color: #8e827f"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#776c6a</p>
+            <div class="color-swatch" style="background-color: #776c6a"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#5f5654</p>
+            <div class="color-swatch" style="background-color: #5f5654"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#47413f</p>
+            <div class="color-swatch" style="background-color: #47413f"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#2f2b2a</p>
+            <div class="color-swatch" style="background-color: #2f2b2a"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#181615</p>
+            <div class="color-swatch" style="background-color: #181615"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#000000</p>
+            <div class="color-swatch" style="background-color: #000000"></div>
+          </li>
+        </ul>
+
+        <ul class="colors tints">
+          <li class="color">
+            <p class="color-code">#edd8d3</p>
+            <div class="color-swatch" style="background-color: #edd8d3"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#efdcd7</p>
+            <div class="color-swatch" style="background-color: #efdcd7"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#f1e0dc</p>
+            <div class="color-swatch" style="background-color: #f1e0dc"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#f2e4e0</p>
+            <div class="color-swatch" style="background-color: #f2e4e0"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#f4e8e5</p>
+            <div class="color-swatch" style="background-color: #f4e8e5"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#f6ece9</p>
+            <div class="color-swatch" style="background-color: #f6ece9"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#f8efed</p>
+            <div class="color-swatch" style="background-color: #f8efed"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#faf3f2</p>
+            <div class="color-swatch" style="background-color: #faf3f2"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#fbf7f6</p>
+            <div class="color-swatch" style="background-color: #fbf7f6"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#fdfbfb</p>
+            <div class="color-swatch" style="background-color: #fdfbfb"></div>
+          </li>
+
+          <li class="color">
+            <p class="color-code">#ffffff</p>
+            <div class="color-swatch" style="background-color: #ffffff"></div>
+          </li>
+        </ul>
       </div>
     </section>
   </body>
