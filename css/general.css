@@ -1,3 +1,5 @@
+/* Global presets */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +10,163 @@ html {
   font-size: 62.5%;
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Bodoni Moda", serif;
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 350;
 
-  background-color: red;
+  color: #444;
+}
+
+/* General styles */
+
+.centering-container {
+  max-width: 120rem;
+
+  margin: 0 auto;
+}
+
+.link-button:link,
+.link-button:visited {
+  padding: 1rem 2rem;
+
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 2rem;
+  font-weight: 500;
+
+  border-radius: 5px;
+
+  transition: all 250ms;
+}
+
+.link-button--regular:link,
+.link-button--regular:visited {
+  color: #41767f;
+  background-color: #ffffff;
+
+  border: 2px solid #41767f;
+}
+
+.link-button--regular:hover,
+.link-button--regular:active {
+  color: #345e66;
+
+  border-color: #345e66;
+}
+
+.link-button--emphasis:link,
+.link-button--emphasis:visited {
+  color: #ffffff;
+  background-color: #41767f;
+
+  border: 2px solid #41767f;
+}
+
+.link-button--emphasis:hover,
+.link-button--emphasis:active {
+  background-color: #345e66;
+
+  border-color: #345e66;
+}
+
+/* Header */
+
+.header {
+  background-color: #41767f;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 192rem;
+
+  padding: 1.5rem 8rem;
+
+  margin: 0 auto;
+}
+
+.header-logo {
+  width: 30rem;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 5rem;
+
+  list-style: none;
+}
+
+.navigation-list-item-link:link,
+.navigation-list-item-link:visited {
+  text-decoration: none;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 350;
+
+  color: #ffffff;
+
+  transition: all 250ms;
+}
+
+.navigation-list-item-link:hover,
+.navigation-list-item-link:active {
+  color: #d5c2be;
+}
+
+/* Hero section */
+
+.hero-section {
+  padding: 8rem 0;
+  background-color: #fdfbfb;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.hero-text {
+  width: 75%;
+}
+
+.hero-heading {
+  font-family: "Bodoni Moda", serif;
+  font-size: 4.778rem;
+  font-weight: 600;
+}
+
+.hero-subheading {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.92rem;
+  font-weight: 300;
+
+  margin-bottom: 3.5rem;
+}
+
+.hero-description {
+  font-size: 1.92rem;
+
+  line-height: 3.4rem;
+
+  margin-bottom: 3.5rem;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-image {
+  width: 50rem;
+
+  border-radius: 5px;
+
+  box-shadow: 0 0 10px 2px rgb(0, 0, 0, 0.1);
 }
