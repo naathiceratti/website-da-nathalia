@@ -131,6 +131,7 @@ body {
   align-items: center;
   justify-items: center;
 }
+
 .hero-text {
   width: 75%;
 }
@@ -169,6 +170,28 @@ body {
   border-radius: 5px;
 
   box-shadow: 0 0 10px 2px rgb(0, 0, 0, 0.1);
+}
+
+/* About section */
+
+.about-section {
+  padding: 8rem 0;
+}
+
+.about-content {
+  padding: 0 12rem;
+}
+
+.about-heading {
+  font-family: "Bodoni Moda", serif;
+  font-size: 3.318rem;
+  font-weight: 500;
+}
+
+.about-text {
+  line-height: 3.4rem;
+
+  margin-bottom: 2rem;
 }
 
 /* Footer */
