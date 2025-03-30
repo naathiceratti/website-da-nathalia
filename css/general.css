@@ -104,7 +104,6 @@ body {
 .navigation-list-item-link:visited {
   text-decoration: none;
 
-  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   font-weight: 350;
 
@@ -143,7 +142,6 @@ body {
 }
 
 .hero-subheading {
-  font-family: "Poppins", sans-serif;
   font-size: 1.92rem;
   font-weight: 300;
 
@@ -274,8 +272,6 @@ body {
 .footer-site-map-link:link,
 .footer-site-map-link:visited {
   text-decoration: none;
-
-  font-family: "Poppins", sans-serif;
 
   color: #ffffff;
 
