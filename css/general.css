@@ -192,6 +192,12 @@ body {
   margin-bottom: 2rem;
 }
 
+/* Approach section */
+
+.approach-section {
+  padding-top: 16rem;
+}
+
 /* Footer */
 
 .footer {
@@ -247,8 +253,8 @@ body {
   list-style: none;
 }
 
-.footer-site-map-link:link,
-.footer-site-map-link:visited {
+.footer-link:link,
+.footer-link:visited {
   text-decoration: none;
 
   color: #ffffff;
@@ -256,8 +262,8 @@ body {
   transition: all 250ms;
 }
 
-.footer-site-map-link:hover,
-.footer-site-map-link:active {
+.footer-link:hover,
+.footer-link:active {
   color: #d5c2be;
 }
 
@@ -277,20 +283,6 @@ body {
   display: flex;
   align-items: center;
   gap: 1rem;
-}
-
-.footer-social-media-link:link,
-.footer-social-media-link:visited {
-  text-decoration: none;
-
-  color: #ffffff;
-
-  transition: all 250ms;
-}
-
-.footer-social-media-link:hover,
-.footer-social-media-link:active {
-  color: #d5c2be;
 }
 
 .footer-social-media-icon {
