@@ -194,6 +194,28 @@ body {
   margin-bottom: 2rem;
 }
 
+/* Approach section */
+
+.approach-section {
+  padding: 8rem 0;
+}
+
+.approach-content {
+  padding: 0 12rem;
+}
+
+.approach-heading {
+  font-family: "Bodoni Moda", serif;
+  font-size: 3.318rem;
+  font-weight: 500;
+}
+
+.approach-text {
+  line-height: 3.4rem;
+
+  margin-bottom: 2rem;
+}
+
 /* Footer */
 
 .footer {
