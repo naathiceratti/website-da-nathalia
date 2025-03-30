@@ -170,45 +170,23 @@ body {
   box-shadow: 0 0 10px 2px rgb(0, 0, 0, 0.1);
 }
 
-/* About section */
+/* Informational text section */
 
-.about-section {
+.info-text-section {
   padding: 8rem 0;
 }
 
-.about-content {
+.info-text-content {
   padding: 0 12rem;
 }
 
-.about-heading {
+.info-text-heading {
   font-family: "Bodoni Moda", serif;
   font-size: 3.318rem;
   font-weight: 500;
 }
 
-.about-text {
-  line-height: 3.4rem;
-
-  margin-bottom: 2rem;
-}
-
-/* Approach section */
-
-.approach-section {
-  padding: 8rem 0;
-}
-
-.approach-content {
-  padding: 0 12rem;
-}
-
-.approach-heading {
-  font-family: "Bodoni Moda", serif;
-  font-size: 3.318rem;
-  font-weight: 500;
-}
-
-.approach-text {
+.info-text-paragraph {
   line-height: 3.4rem;
 
   margin-bottom: 2rem;
