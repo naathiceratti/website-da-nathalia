@@ -298,6 +298,10 @@ body {
   margin-right: 3.2rem;
 }
 
+.footer-block--text {
+  padding-top: 2rem;
+}
+
 .footer-site-map {
   display: flex;
   flex-direction: column;
