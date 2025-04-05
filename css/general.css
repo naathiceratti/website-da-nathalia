@@ -11,6 +11,8 @@ html {
 }
 
 body {
+  min-width: 144rem;
+
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   font-weight: 350;
