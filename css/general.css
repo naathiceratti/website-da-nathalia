@@ -8,6 +8,8 @@
 
 html {
   font-size: 62.5%;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -202,7 +204,7 @@ body {
 /* Informational text section */
 
 .info-text-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .info-text-content {
@@ -225,6 +227,14 @@ body {
 
   margin-bottom: 2rem;
 }
+
+/* About section */
+
+#sobre {
+  padding-top: 6rem;
+}
+
+/* FAQ section */
 
 .faq-question {
   font-family: "Bodoni Moda", serif;
